@@ -113,7 +113,7 @@ Use `>` for blockquotes, which are great for highlighting notes or tips.
 ```
 [GitHub](https://github.com)
 ```
-**Output:** [GitHub]((https://github.com/tekinmuhammed)
+**Output:** [GitHub](https://github.com/tekinmuhammed)
 
 **- Images:**
 ```
