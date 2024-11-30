@@ -13,9 +13,11 @@ Markdown supports six levels of headings, represented by # symbols or underline 
 
 **Example:**
 
-'''# Heading 1 #
-'''## Heading 2 ##
-'''### Heading 3 ###
+```
+# Heading 1 #
+## Heading 2 ##
+### Heading 3 ###
+```
 Output:
 # Heading 1 #
 ## Heading 2 ##
@@ -24,22 +26,36 @@ Output:
 ---
 
 ### 2. Text Formatting
-Bold Text:
 
+**- Bold Text:**
+
+```
 **Bold Text** or __Bold Text__
-Output: Bold Text
-Italicized Text:
+```
+Output: **Bold Text**
 
+**-Italicized Text:**
+
+```
 *Italic Text* or _Italic Text_
-Output: Italic Text
-Bold and Italicized:
+```
+Output: **_Italic Text_**
 
+**-Bold and Italicized:**
+
+```
 ***Bold and Italic Text***
-Output: Bold and Italic Text
-Strikethrough Text:
+```
 
+Output: *****Bold and Italic Text*****
+
+**-Strikethrough Text:**
+
+```
 ~~Strikethrough Text~~
-Output: Strikethrough Text
+```
+
+Output: **~~Strikethrough Text~~**
 
 ---
 
