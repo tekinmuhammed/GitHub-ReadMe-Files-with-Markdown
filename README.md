@@ -1,7 +1,7 @@
 # Crafting Perfect GitHub ReadMe Files with Markdown
 
 
-Markdown is the backbone of creating clean and well-structured GitHub README.md files. It allows developers to write formatted text effortlessly using plain text syntax. In this guide, we'll walk through a comprehensive Markdown cheatsheet tailored for GitHub, complete with examples and tips to make your README files shine.
+Markdown is the backbone of creating clean and well-structured `GitHub README.md` files. It allows developers to write formatted text effortlessly using plain text syntax. In this guide, we'll walk through a comprehensive Markdown cheatsheet tailored for GitHub, complete with examples and tips to make your README files shine.
 
 ---
 
@@ -18,7 +18,7 @@ Markdown supports six levels of headings, represented by # symbols or underline 
 ## Heading 2 ##
 ### Heading 3 ###
 ```
-Output:
+**Output:**
 # Heading 1 #
 ## Heading 2 ##
 ### Heading 3 ###
@@ -76,7 +76,7 @@ Use `>` for blockquotes, which are great for highlighting notes or tips.
 ---
 
 ### 4. Lists
-**Unordered List:**
+**- Unordered List:**
 ```
 - Item 1
 - Item 2
@@ -91,7 +91,7 @@ Use `>` for blockquotes, which are great for highlighting notes or tips.
   - Sub-item 1
   - - Sub-item 2
   
-**Ordered List:**
+**- Ordered List:**
 ```
 1. First item
 2. Second item
@@ -109,13 +109,13 @@ Use `>` for blockquotes, which are great for highlighting notes or tips.
 
 ### 5. Links and Images
 
-**Links:**
+**- Links:**
 ```
 [GitHub](https://github.com)
 ```
-**Output:** [GitHub](https://github.com)
+**Output:** [GitHub]((https://github.com/tekinmuhammed)
 
-**Images:**
+**- Images:**
 ```
 ![Alt text](https://github.com/favicon.ico)
 ```
@@ -123,74 +123,112 @@ Use `>` for blockquotes, which are great for highlighting notes or tips.
 
 ---
 
-6. Code Blocks
-Inline Code:
+### 6. Code Blocks
 
+**- Inline Code:**
+```
 Use `code` for inline code.
-Output: Use code for inline code.
-Multiline Code Blocks:
+```
+**Output:** Use `code` for inline code.
 
+**- Multiline Code Blocks:**
+```
 ```python
 def hello_world():
-    print("Hello, World!")
+    print("Hello, World!")```
+```
 **Output:**
-```python
+```
+python
 def hello_world():
     print("Hello, World!")
+```
 
 ---
 
-7. Tables
+### 7. Tables
 Tables help present structured data.
-Example:
+
+**Example:**
+```
 | Syntax      | Description |
 | ----------- | ----------- |
 | Header      | Title       |
 | Paragraph   | Text        |
-Output:
+```
+**Output:**
+
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
 
 ---
 
-8. Horizontal Rules
+### 8. Horizontal Rules
 Separate sections with horizontal lines.
-Example:
+
+**Example:**
+```
 ---
-Output:
+```
+Output: 
 
 ---
 
-9. Checkboxes
+---
+
+### 9. Checkboxes
 Perfect for to-do lists in issues or pull requests.
-Example:
+
+**Example:**
+```
 - [x] Task 1
 - [ ] Task 2
 - [ ] Task 3
+```
 Output:
-
+- [x] Task 1
+- [ ] Task 2
+- [ ] Task 3
 ---
 
-10. Emojis
-Enhance your README with emojis. Use a colon followed by the emoji code.
-Example:
+### 10. Emojis
+Enhance your `README` with emojis. Use a colon followed by the emoji code.
+
+**Example:**
+```
 :smile: :rocket: :tada:
-Output: 😄 🚀 🎉
-Refer to the Emoji Cheat Sheet for more codes.
+```
+**Output:** 😄 🚀 🎉
+
+Refer to the [Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md#face-affection) for more codes.
 
 ---
 
-11. Links to Sections
+### 11. Links to Sections
 Create in-page links for better navigation.
-Example:
+
+**Example:**
+```
 [Go to Headings](#headings)
-Output: Go to Headings
+```
+**Output:** [Go to Headings](#headings)
 
 ---
 
-12. Task List
+### 12. Task List
 Add task lists for project progress.
-Example:
+
+**Example:**
+```
 - [x] Research Markdown
 - [x] Write Cheatsheet
 - [ ] Publish Article
-Output:
-Mastering Markdown is an essential skill for creating professional and readable GitHub README.md files. By incorporating headings, lists, links, tables, and other elements effectively, you can create compelling documentation that's both functional and visually appealing. Let this cheatsheet be your quick reference for all things Markdown!
+```
+**Output:**
+- [x] Research Markdown
+- [x] Write Cheatsheet
+- [ ] Publish Article
+
+Mastering Markdown is an essential skill for creating professional and readable `GitHub README.md` files. By incorporating headings, lists, links, tables, and other elements effectively, you can create compelling documentation that's both functional and visually appealing. Let this cheatsheet be your quick reference for all things Markdown!
