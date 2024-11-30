@@ -59,53 +59,67 @@ Output: **~~Strikethrough Text~~**
 
 ---
 
-3. Blockquotes
-Use > for blockquotes, which are great for highlighting notes or tips.
-Example:
+### 3. Blockquotes
+
+Use `>` for blockquotes, which are great for highlighting notes or tips.
+
+**Example:**
+```
 > This is a blockquote.
 > You can span multiple lines.
-Output:
-This is a blockquote.
-You can span multiple lines.
+```
+**Output:**
+>This is a blockquote.
+>
+>You can span multiple lines.
 
 ---
 
-4. Lists
-Unordered List:
+### 4. Lists
+**Unordered List:**
+```
+- Item 1
+- Item 2
+  - Sub-item 1
+  - - Sub-item 2
+```
+
+**Output:**
 
 - Item 1
 - Item 2
   - Sub-item 1
-  - Sub-item 2
-Output:
-Item 1
-Item 2
- Sub-item 1
- Sub-item 2
-Ordered List:
-
+  - - Sub-item 2
+  
+**Ordered List:**
+```
 1. First item
 2. Second item
    1. Sub-item 1
    2. Sub-item 2
-Output:
-First item
-Second item
-
- Sub-item 1
- Sub-item 2
+```
+**Output:**
+1. First item
+2. Second item
+   1. Sub-item 1
+   2. Sub-item 2
 
 ---
 
-5. Links and Images
-Links:
 
+### 5. Links and Images
+
+**Links:**
+```
 [GitHub](https://github.com)
-Output: GitHub
-Images:
+```
+**Output:** [GitHub](https://github.com)
 
+**Images:**
+```
 ![Alt text](https://github.com/favicon.ico)
-Output:
+```
+**Output:** ![Alt text](https://github.com/favicon.ico)
 
 ---
 
